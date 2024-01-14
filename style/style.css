@@ -1,0 +1,136 @@
+/*popins---*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poppins:wght@400;600;700&family=Work+Sans:wght@400;500;700;800&display=swap");
+
+/*---share style---*/
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/*header section style--*/
+
+header {
+  background: #fff;
+  padding: 50px 240px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.header-section {
+  display: flex;
+  margin-top: 80px;
+  background-image: url("../images/Circle\ design.svg");
+}
+.heading-title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.heading-description {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.btn-primary {
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 41px;
+  background: #e02c6d;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+}
+
+.sponser-icone ul {
+  margin-top: 90px;
+  display: flex;
+  gap: 35px;
+  margin-right: 5px;
+}
+.sponser-icone li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/*main section style-----*/
+.card-collection {
+}
+.card-item {
+}
+.feature-section {
+  display: flex;
+  padding: 165px;
+  gap: 50px;
+}
+.feature-title {
+  font-size: 38px;
+  font-weight: 700;
+  color: #0a0826;
+}
+.feature-description {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #6c6c6c;
+  height: 88px;
+  width: 510px;
+}
+
+footer {
+  width: 1440px;
+  height: 239px;
+  flex-shrink: 0;
+  background: #0a0826;
+}
+.footer-section {
+  text-align: center;
+  padding-top: 50px;
+}
+.foot-title {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.foot-copy {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--Text-Gray-300, #d9dbe1);
+}
+.foot-right {
+  color: var(--Text-Gray-300, #d9dbe1);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
